@@ -3,7 +3,7 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - main  # or any other branch you want to trigger the build on
+      - master  # or any other branch you want to trigger the build on
 
 jobs:
   build:
