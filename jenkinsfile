@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Checkout code from GitHub
+                // Checkout code from GitHub 
                 git 'https://github.com/a-saber/DevOps-ToDo-App.git'
             }
         }
